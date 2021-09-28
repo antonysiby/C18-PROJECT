@@ -22,7 +22,7 @@ function setup(){
 createCanvas(windowWidth,windowHeight);
 // Moving background
 
-path=createSprite(655,40,40);
+path=createSprite(width/2,200);
 path.addImage(pathImg);
 path.velocityY = 4;
 path.y = 500 
